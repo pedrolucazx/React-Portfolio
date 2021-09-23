@@ -10,7 +10,7 @@ export default function Intro() {
             showCursor: true,
             backDelay:1500,
             backSpeed:60,
-            strings: ['Fullstack JavaScript MERN Iniciante' ], 
+            strings: ['Fullstack Iniciante' ], 
         });
     },[])
 
@@ -27,7 +27,7 @@ export default function Intro() {
                     <h1>Pedro Lucas</h1>
                     <h3>Desenvolvedor <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#about">
                     <img src="assets/arrow-down.png" alt=""/>
                 </a>
             </div>

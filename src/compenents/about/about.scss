@@ -1,0 +1,29 @@
+@import "../../global.scss";
+
+.about{
+  background-color: $maincolor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  .skills{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem; 
+    row-gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .main-about{
+    width: 80%;
+    background: white;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    margin: 3rem;
+    box-shadow: 0 0 14px rgba($color: #000000, $alpha: 1.0);
+
+  }
+}
