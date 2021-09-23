@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     .hardSkills{
+      width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -22,7 +23,7 @@
     }
   }
   .main-about{
-    width: 80%;
+    width: 60%;
     background: white;
     padding: 1rem;
     border-radius: 0.8rem;
