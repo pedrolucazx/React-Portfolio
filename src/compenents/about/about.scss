@@ -8,14 +8,18 @@
   flex-direction: row;
 
   .skills{
-    width: 80%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    column-gap: 4rem; 
-    row-gap: 2rem;
-    flex-direction: row;
-    flex-wrap: wrap;
+    .hardSkills{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 4rem; 
+      row-gap: 2rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
   }
   .main-about{
     width: 80%;
