@@ -29,20 +29,27 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            flex-direction: column;
             
             .itemContainer{
                 display: flex;
                 align-items: center;
-                margin-left: 30px;
+                justify-content: center;
+                margin: 15px 0 0 0;
+                padding: 10px;
+                background: $maincolor;
+                color: white;
+                width:15rem;
+                border-radius: 2rem;
                 };
                 
                 .icon{
-                    font-size: 18px;
+                    font-size: 23px;
                     margin-right: 5px;
                 }
     
                 .links{
-                    font-size: 15px;
+                    font-size: 20px;
                     font-weight: 700;
                     text-decoration: none;
                     color: inherit;
