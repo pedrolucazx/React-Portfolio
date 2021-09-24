@@ -8,9 +8,13 @@
     position: relative;
 
     h1{
-        font-size: 50px;
+        font-size: 2rem;
         position: absolute;
-        top: 20px;
+        top: 70px;
+
+        @include mobile{
+            top: 20px;
+        }
     }
 
     .arrow{

@@ -3,6 +3,8 @@
 .contact{
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
 
     @include mobile {
         flex-direction: column;

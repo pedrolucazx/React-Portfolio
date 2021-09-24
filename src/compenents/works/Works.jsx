@@ -13,24 +13,24 @@ export default function Works() {
     <div className="works" id="works">
       <h1>Projetos</h1>
       <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
-        {data.map((d) => (
+        {data.map((dataProjects) => (
           <div className="container">
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">
-                    <img src={d.icon} alt="" />
+                    <img src={dataProjects.icon} alt="" />
                   </div>
-                  <h2>{d.title}</h2>
+                  <h2>{dataProjects.title}</h2>
                   <p>
-                    {d.desc}
+                    {dataProjects.desc}
                   </p>
                   <span>Projects</span>
                 </div>
               </div>
               <div className="right">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src={dataProjects.img}
                   alt=""
                 />
               </div>

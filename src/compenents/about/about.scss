@@ -28,6 +28,20 @@
       align-items: center;
       flex-direction: row;
       flex-wrap: wrap;
+
+      h2{
+        font-size: 1.4rem;
+      }
+
+      .hardSkills{
+        @include mobile{
+          img{
+            width: 4.6rem;
+          }
+        }
+
+      }
+
     }
   }
 
@@ -40,5 +54,6 @@
     margin: 2rem;
     text-align: justify ;
     font-size: 1.1rem;
+
   }
 }
