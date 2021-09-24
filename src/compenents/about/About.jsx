@@ -4,11 +4,13 @@ export default function About() {
     <div className="about" id="about">
 
       <div className="skills">
-          <h2 className="hard">Habilidades & conhecimentos</h2>  
-          <img src="https://img.icons8.com/color/144/000000/javascript--v1.png" alt="Logo JavaScript"/>
-          <img src="https://img.icons8.com/color/144/000000/html-5--v1.png" alt="Logo HTML5" />
-          <img src="https://img.icons8.com/color/144/000000/css3.png" alt="Logo CSS3"/>
-          <img src="https://img.icons8.com/office/144/000000/react.png" alt="Logo ReactJS"/>
+          <h2>Habilidades & conhecimentos</h2>
+          <div className="hardSkills">
+            <img src="https://img.icons8.com/color/144/000000/javascript--v1.png" alt="Logo JavaScript"/>
+            <img src="https://img.icons8.com/color/144/000000/html-5--v1.png" alt="Logo HTML5" />
+            <img src="https://img.icons8.com/color/144/000000/css3.png" alt="Logo CSS3"/>
+            <img src="https://img.icons8.com/office/144/000000/react.png" alt="Logo ReactJS"/>
+          </div>  
       </div>
 
       <div className="main-about">
