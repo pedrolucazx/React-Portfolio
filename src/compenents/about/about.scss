@@ -1,34 +1,44 @@
 @import "../../global.scss";
 
 .about{
-  background-color: $maincolor;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  
+
+  @include mobile{
+    flex-direction: column;
+  }
 
   .skills{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .hardSkills{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      font-size: 1.1rem;
+      text-align: center;
+    
+    @include mobile{
       width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
-      column-gap: 4rem; 
-      row-gap: 2rem;
       flex-direction: row;
       flex-wrap: wrap;
     }
   }
+
   .main-about{
-    width: 60%;
-    background: white;
+    width: 80%;
+    background: $maincolor;
     padding: 1rem;
     border-radius: 0.8rem;
-    margin: 3rem;
-    box-shadow: 0 0 14px rgba($color: #000000, $alpha: 1.0);
-
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+    text-align: justify ;
+    font-size: 1.1rem;
   }
 }
