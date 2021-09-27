@@ -1,4 +1,5 @@
 import { useState } from "react"
+import {GitHub, Code} from "@material-ui/icons"
 import "./works.scss"
 
 import { data } from "../../data";
@@ -18,14 +19,20 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={dataProjects.icon} alt="" />
-                  </div>
                   <h2>{dataProjects.title}</h2>
                   <p>
                     {dataProjects.desc}
                   </p>
-                  <span>Projects</span>
+                  <div className="buttons">
+                    <button>
+                      <GitHub/>
+                      <a href={dataProjects.git}>GitHub</a>
+                    </button>
+                    <button>
+                      <Code />
+                      <a href={dataProjects.site}>WebSite</a>
+                    </button>
+                  </div>
                 </div>
               </div>
               <div className="right">

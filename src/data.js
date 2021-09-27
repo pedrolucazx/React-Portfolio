@@ -1,16 +1,18 @@
 export const data = [
     {
         id: "1",
-        icon: "./assets/mobile.png",
-        title: "Trabalho 1",
+        title: "Proffy",
         desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            "Projeto plaforma de estudos online.",
         img:
-            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+            "./assets/Home.svg",
+        git:
+            "https://github.com/pedrolucazx/Proffy",
+        site:
+            "https://proffy-six-sand.vercel.app",
     },
     {
         id: "2",
-        icon: "./assets/globe.png",
         title: "Trabalho 2",
         desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -19,7 +21,6 @@ export const data = [
     },
     {
         id: "3",
-        icon: "./assets/writing.png",
         title: "Trabalho 3",
         desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
