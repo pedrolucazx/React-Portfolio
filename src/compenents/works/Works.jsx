@@ -25,12 +25,10 @@ export default function Works() {
                   </p>
                   <div className="buttons">
                     <button>
-                      <GitHub/>
-                      <a href={dataProjects.git}>GitHub</a>
+                      <a href={dataProjects.git} target="_blank" rel="noreferrer"><GitHub/> GitHub</a>
                     </button>
                     <button>
-                      <Code />
-                      <a href={dataProjects.site}>WebSite</a>
+                      <a href={dataProjects.site} target="_blank" rel="noreferrer"><Code/> WebSite</a>
                     </button>
                   </div>
                 </div>
