@@ -22,13 +22,5 @@ export const data = [
       "https://github.com/pedrolucazx/Desafio-Supera",
     site:
       "https://desafio-supera.vercel.app/",
-  },
-  {
-    id: "3",
-    title: "Trabalho 3",
-    desc:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    img:
-      "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-  },
+  }
 ]
